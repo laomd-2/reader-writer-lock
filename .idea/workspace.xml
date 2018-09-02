@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="rwlock" targetName="rwlock" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Release" CONFIG_NAME="Release" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5b69ac3b-ce82-4f24-8d4f-dccf956052d6" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <ignored path="$PROJECT_DIR$/cmake-build-release/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Release" />
+  <component name="FavoritesManager">
+    <favorites_list name="rwlock" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.c" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="81" column="24" selection-start-line="81" selection-start-column="24" selection-end-line="81" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rwlock.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rwlock.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="e#38#56#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>&amp;rw-&gt;rw_mutex</find>
+      <find>rw-&gt;rw_refcount</find>
+      <find>&amp;rw-&gt;rw_condreaders</find>
+      <find>&amp;(rw-&gt;rw_mutex)</find>
+      <find>&amp;rw-&gt;rw_condwriters</find>
+      <find>extern</find>
+      <find>int</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>&amp;(rw-&gt;rw_condreaders)</replace>
+      <replace>&amp;(rw-&gt;rw_mutex)</replace>
+      <replace>&amp;(rw-&gt;rw_condwriters)</replace>
+      <replace />
+      <replace>void</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/timer.h" />
+        <option value="$PROJECT_DIR$/my_rand.h" />
+        <option value="$PROJECT_DIR$/my_rwlock.h" />
+        <option value="$PROJECT_DIR$/cmake-build-release/test.c" />
+        <option value="$PROJECT_DIR$/list.cpp" />
+        <option value="$PROJECT_DIR$/test.c" />
+        <option value="$PROJECT_DIR$/list.h" />
+        <option value="$PROJECT_DIR$/list.c" />
+        <option value="$PROJECT_DIR$/build.log" />
+        <option value="$PROJECT_DIR$/build.sh" />
+        <option value="$PROJECT_DIR$/rwlock.h" />
+        <option value="$PROJECT_DIR$/cmake-build-release/data.json" />
+        <option value="$PROJECT_DIR$/cmake-build-release/reader-first-result.json" />
+        <option value="$PROJECT_DIR$/cmake-build-release/rf-10-20000-0.6-0.2.json" />
+        <option value="$PROJECT_DIR$/getdata.c" />
+        <option value="$PROJECT_DIR$/cmake-build-release/statistics.py" />
+        <option value="$PROJECT_DIR$/cmake-build-release/run.sh" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/rwlock.c" />
+        <option value="$PROJECT_DIR$/main.c" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="OCFindUsagesOptions" text="false" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="15" />
+    <option name="y" value="7" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Project Source Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="rwlock" type="cbb8eebc:String" user="rwlock" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="rwlock" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rwlock" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/96552/CLionProjects/rwlock/main.c" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cmake-build-release" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\96552\CLionProjects\rwlock" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.rwlock">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="rwlock" RUN_TARGET_NAME="rwlock" EXPLICIT_BUILD_TARGET_NAME="all" />
+    <configuration name="getdata" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="3000 20000" PASS_PARENT_ENVS_2="true" PROJECT_NAME="rwlock" TARGET_NAME="getdata" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="rwlock" RUN_TARGET_NAME="getdata" />
+    <configuration name="rwlock" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="10 3000 20000 0.6 0.2 1" PASS_PARENT_ENVS_2="true" PROJECT_NAME="rwlock" TARGET_NAME="rwlock" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="rwlock" RUN_TARGET_NAME="rwlock" />
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.rwlock" />
+      <item itemvalue="Application.getdata" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5b69ac3b-ce82-4f24-8d4f-dccf956052d6" name="Default" comment="" />
+      <created>1527820913649</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1527820913649</updated>
+      <workItem from="1527820914816" duration="170000" />
+      <workItem from="1527821100617" duration="3367000" />
+      <workItem from="1527839592115" duration="8428000" />
+      <workItem from="1527879836807" duration="4105000" />
+      <workItem from="1527855232282" duration="2639000" />
+      <workItem from="1527860957775" duration="6797000" />
+      <workItem from="1527937905300" duration="2350000" />
+      <workItem from="1528256913637" duration="8000" />
+      <workItem from="1528602885820" duration="137000" />
+      <workItem from="1528785074527" duration="252000" />
+      <workItem from="1528785344288" duration="3490000" />
+      <workItem from="1528982476686" duration="608000" />
+      <workItem from="1529071017517" duration="152000" />
+      <workItem from="1529071218332" duration="30000" />
+      <workItem from="1529100139169" duration="5336000" />
+      <workItem from="1529082681236" duration="7000" />
+      <workItem from="1529120727156" duration="4474000" />
+      <workItem from="1529129175583" duration="1913000" />
+      <workItem from="1529148965170" duration="1945000" />
+      <workItem from="1529160781400" duration="1500000" />
+      <workItem from="1529242741544" duration="37000" />
+      <workItem from="1529665107483" duration="96000" />
+      <workItem from="1529668513174" duration="411000" />
+      <workItem from="1529671051212" duration="89000" />
+      <workItem from="1529825863424" duration="746000" />
+    </task>
+    <task id="LOCAL-00001" summary="reader writer lock">
+      <created>1527840156327</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1527840156327</updated>
+    </task>
+    <task id="LOCAL-00002" summary="reader first">
+      <created>1527846895306</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1527846895306</updated>
+    </task>
+    <task id="LOCAL-00003" summary="reader first">
+      <created>1527880880694</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1527880880694</updated>
+    </task>
+    <task id="LOCAL-00004" summary="reader first">
+      <created>1527868214302</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1527868214302</updated>
+    </task>
+    <task id="LOCAL-00005" summary="reader first">
+      <created>1527871919773</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1527871919773</updated>
+    </task>
+    <task id="LOCAL-00006" summary="reader first">
+      <created>1527939177801</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1527939177802</updated>
+    </task>
+    <task id="LOCAL-00007" summary="rwlock">
+      <created>1527940263161</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1527940263161</updated>
+    </task>
+    <task id="LOCAL-00008" summary="rwlock">
+      <created>1529081682551</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1529081682552</updated>
+    </task>
+    <task id="LOCAL-00009" summary="rand">
+      <created>1529826567320</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1529826567320</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="53572000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18155198" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32324842" />
+      <window_info anchor="bottom" id="CMake" order="7" weight="0.3262295" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32643312" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.328594" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" x="67" y="255" width="1299" height="302" id="Terminal" order="7" weight="0.6557377" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39968154" />
+      <window_info id="Favorites" order="2" side_tool="true" weight="0.3299373" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32984293" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18181819" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.328594" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32786885" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32984293" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39968154" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32484075" />
+      <window_info anchor="bottom" x="67" y="255" width="1299" height="302" id="Terminal" order="8" weight="0.65686274" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="CMake" order="11" weight="0.3262295" />
+      <window_info id="Favorites" order="2" side_tool="true" weight="0.3299373" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="reader writer lock" />
+    <MESSAGE value="reader first" />
+    <MESSAGE value="rwlock" />
+    <MESSAGE value="rand" />
+    <option name="LAST_COMMIT_MESSAGE" value="rand" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/list.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.c" />
+    <entry file="file://$PROJECT_DIR$/rwlock.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1634">
+          <caret line="86" column="36" selection-start-line="86" selection-start-column="36" selection-end-line="86" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/timer.h" />
+    <entry file="file://$PROJECT_DIR$/my_rand.h" />
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/mingw64/x86_64-w64-mingw32/include/stdlib.h" />
+    <entry file="file://$PROJECT_DIR$/timer.h" />
+    <entry file="file://$PROJECT_DIR$/my_rand.h" />
+    <entry file="file://$PROJECT_DIR$/my_rwlock.h" />
+    <entry file="file://D:/Program Files/mingw64/x86_64-w64-mingw32/include/pthread.h" />
+    <entry file="file://$PROJECT_DIR$/test.c" />
+    <entry file="file://$PROJECT_DIR$/Makefile" />
+    <entry file="file://$PROJECT_DIR$/a.log" />
+    <entry file="file://$PROJECT_DIR$/build.log" />
+    <entry file="file://$PROJECT_DIR$/build.sh" />
+    <entry file="file:///usr/include/pthread.h" />
+    <entry file="file://$PROJECT_DIR$/cmake-build-release/cmake_install.cmake">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rwlock.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" selection-start-line="4" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-release/Makefile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-release/reader-first-result.json" />
+    <entry file="file://$PROJECT_DIR$/cmake-build-release/rf-10-20000-0.6-0.2.json" />
+    <entry file="file://$PROJECT_DIR$/cmake-build-release/rf-10-10000-0.1-0.1.json" />
+    <entry file="file://$PROJECT_DIR$/cmake-build-release/rf-10-10000-0.1-0.2.json" />
+    <entry file="file://$PROJECT_DIR$/cmake-build-release/rf-10-10000-0.1-0.6.json" />
+    <entry file="file://$PROJECT_DIR$/cmake-build-release/rf-10-10000-0.1-0.7.json" />
+    <entry file="file://$PROJECT_DIR$/cmake-build-release/rf-10-10000-0.4-0.1.json" />
+    <entry file="file://$PROJECT_DIR$/cmake-build-release/rf-10-30000-0.6-0.2.json" />
+    <entry file="file://$PROJECT_DIR$/list.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="22" selection-start-line="4" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-release/origin.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="2999" column="4" selection-start-line="2999" selection-start-column="4" selection-end-line="2999" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-release/rf-10-20000-0.1-0.1.json" />
+    <entry file="file://$PROJECT_DIR$/cmake-build-release/rf-10-20000-0.1-0.3.json" />
+    <entry file="file://$PROJECT_DIR$/cmake-build-release/rf-10-20000-0.4-0.5.json" />
+    <entry file="file://$PROJECT_DIR$/cmake-build-release/rf-10-20000-0.4-0.4.json" />
+    <entry file="file://$PROJECT_DIR$/cmake-build-release/rf-10-20000-0.4-0.3.json" />
+    <entry file="file://$PROJECT_DIR$/cmake-build-release/rf-10-20000-0.1-0.7.json" />
+    <entry file="file:///usr/include/x86_64-linux-gnu/bits/pthreadtypes.h" />
+    <entry file="file://$PROJECT_DIR$/cmake-build-release/insert.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-release/delete.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-release/statistics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="11" lean-forward="true" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-release/reader-first.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="792" column="1" lean-forward="true" selection-start-line="792" selection-start-column="1" selection-end-line="792" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getdata.c" />
+    <entry file="file://$PROJECT_DIR$/cmake-build-release/run.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="63" column="17" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rwlock.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="e#38#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="81" column="24" selection-start-line="81" selection-start-column="24" selection-end-line="81" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

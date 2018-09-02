@@ -1,0 +1,3 @@
+"D:\Program Files\JetBrains\CLion 2018.1.1\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\rwlock.dir/objects.a
+"D:\Program Files\mingw64\bin\ar.exe" cr CMakeFiles\rwlock.dir/objects.a @CMakeFiles\rwlock.dir\objects1.rsp
+"D:\Program Files\mingw64\bin\gcc.exe" -O3 -O3 -DNDEBUG   -Wl,--whole-archive CMakeFiles\rwlock.dir/objects.a -Wl,--no-whole-archive  -o rwlock.exe -Wl,--out-implib,librwlock.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\rwlock.dir\linklibs.rsp
