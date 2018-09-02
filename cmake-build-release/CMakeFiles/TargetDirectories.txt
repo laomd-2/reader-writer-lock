@@ -1,3 +1,0 @@
-E:/textbook/sophomore term 2/super computing/HW/3/rwlock/cmake-build-release/CMakeFiles/rwlock.dir
-E:/textbook/sophomore term 2/super computing/HW/3/rwlock/cmake-build-release/CMakeFiles/edit_cache.dir
-E:/textbook/sophomore term 2/super computing/HW/3/rwlock/cmake-build-release/CMakeFiles/rebuild_cache.dir
